@@ -1,5 +1,4 @@
 <?php
-
 /*
 Plugin Name: Focus Author Bio
 Plugin URI: http://
@@ -14,7 +13,6 @@ mail: tanvir.focus@gmail.com
 if ( ! defined( 'ABSPATH' ) ) exit;
 
 class focus_author_box{
-
 	//constructor method calling here
 	public function __construct(){
 		add_action('init', array($this, 'focus_redefine'));
@@ -23,7 +21,6 @@ class focus_author_box{
 		add_filter('the_content', array($this, 'hook_after_post_content'));
 		add_filter('user_contactmethods', array($this, 'authors_profile_field'));
 	}
-
 
 	// Setting up plugin DIR & URI
 	public function focus_redefine(){
@@ -40,7 +37,6 @@ class focus_author_box{
 		<link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet" />
 		<?php
 	}
-
 
 	//add the author box bellow the single post content
 	public function hook_after_post_content($content) {
@@ -97,8 +93,6 @@ class focus_author_box{
 		}
 		return $content;
 	}
-
-
 
 	//add new profile field in users profile editor
 	public function authors_profile_field($field_lebel) {
