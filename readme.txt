@@ -40,7 +40,7 @@ e.g.
 
 = Plugin Info =
 * Developed by [Tanvir](https://twitter.com/TanvirFocus)
-* Check out the [Github](https://github.com/TanvirAmi/__/) repo to contribute.
+* Check out the [Github](https://github.com/TanvirAmi/Focus-Author-Bio) repo to contribute.
 
 ==Changelog==
 
