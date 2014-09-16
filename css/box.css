@@ -1,0 +1,62 @@
+/*
+Author: MD: Nahidul Islam Tanvir
+Version: 1.0
+Author URI: https://twitter.com/TanvirFocus
+Email: tanvir.focus@gmail.com
+*/
+
+.focuswarp {
+	background: #f8f8f8;
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	-ms-box-sizing:border-box;
+	box-sizing:border-box;
+	border: 1px solid #00d978;
+	float: left;
+	padding: 2%;
+	width: 100%;
+	border-radius: 4px;
+	margin-bottom: 4px;
+}
+
+.focusavatar {
+	float: left;
+	margin: 0px 10px 0px 0px;
+	width: 10%;
+}
+
+.focustext {
+	float: right;
+	width: 83%;
+}
+
+.focustext h4 {
+	font-size: 20px;
+	line-height: 20px;
+	margin: 0 0 0 0;
+	padding: 0;
+	font-family: "Lucida Console", Monaco, monospace;
+}
+
+.focustext p {
+	margin: 5px 0 12px 0;
+}
+
+.focus-social {
+	float: left;
+	width: 100%;
+	font-size: 14px;
+	padding-top: 10px;
+}
+
+.focus-social a {
+	border: 0;
+	margin-right: 10px;
+	text-decoration: none;
+}
+
+@media only screen and (min-width: 480px) and (max-width: 767px){
+.focus-social a {
+	margin-right: 17px;
+}
+}
