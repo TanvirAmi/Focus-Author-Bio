@@ -1,4 +1,4 @@
-== TJ Scroller ==
+== Focus Author Bio ==
 Contributor: Tanvir.
 Tags: author info, author bio, author box
 Requires at least: 3.6
