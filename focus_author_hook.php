@@ -1,7 +1,7 @@
 <?php
 /*
 Plugin Name: Focus Author Bio
-Plugin URI: http://
+Plugin URI: https://github.com/TanvirAmi/Focus-Author-Bio
 Description: This plugin will add a box of author bio bellow the single post of your website. 
 Author: MD: Nahidul Islam Tanvir
 Version: 1.0
